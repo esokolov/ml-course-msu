@@ -1,2 +1,2 @@
 # ml-course-msu
-Lecture notes and code for Machine Learning practical course on CMC MSU
+Конспекты, код и прочие материалы к семинарам по машинному обучению, проводимым на ВМК МГУ.
