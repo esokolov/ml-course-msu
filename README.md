@@ -23,7 +23,7 @@
 
 [Things in Pandas](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb)
 
-Pandas Tutorial from SciPy 2015 conference: [video](https://youtu.be/0CFFTJUZ2dc?list=PLYx7XA2nY5Gcpabmu61kKcToLz0FapmHu) [code](https://github.com/jonathanrocher/pandas_tutorial)
+Pandas Tutorial from SciPy 2015 conference: [[video](https://youtu.be/0CFFTJUZ2dc?list=PLYx7XA2nY5Gcpabmu61kKcToLz0FapmHu)] [[code](https://github.com/jonathanrocher/pandas_tutorial)]
 
 
 
