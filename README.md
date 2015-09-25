@@ -7,7 +7,7 @@
 
 ## Дополнительные материалы
 
-#### Семинар 3: LSH
+#### Семинар 3: LSH, kNN, векторизация
 Статьи на Хабре про рандомизированные алгоритмы: [Bloom filters](http://habrahabr.ru/post/112069/) [MinHash](http://habrahabr.ru/post/115147/) [HyperLogLog](http://habrahabr.ru/post/119852/)
 
 [Лекция по понижению размерности (в том числе learning to hash)](https://github.com/esokolov/ml-course-msu/blob/master/ML15/misc/lsml15_fivt_reduction.pdf)
