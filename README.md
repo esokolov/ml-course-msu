@@ -19,6 +19,14 @@
 
 ## Полезные ссылки
 
+### Math
+
+[Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf)
+
+[Review of Probability Theory](http://cs229.stanford.edu/section/cs229-prob.pdf)
+
+[Convex Optimization Overview](http://cs229.stanford.edu/section/cs229-cvxopt.pdf)
+
 ### Python
 
 [Scientific Python Lectures (охватывает numpy, scipy, matplotlib и другие библиотеки)](https://github.com/jrjohansson/scientific-python-lectures)
