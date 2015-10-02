@@ -17,6 +17,9 @@
 
 * [How to Vectorize Data Aggregation with pandas and NumPy](http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/)
 
+#### Семинар 4: Решающие деревья
+* [Глава про решающие деревья из "Data Mining and Knowledge Discovery Handbook"](http://www.ise.bgu.ac.il/faculty/liorr/hbchap9.pdf) (очень хорошо описано разнообразие методов построения деревьев)
+
 ## Полезные ссылки
 
 ### Math
