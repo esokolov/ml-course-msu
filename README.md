@@ -20,6 +20,8 @@
 #### Семинар 4: Решающие деревья
 * [Глава про решающие деревья из "Data Mining and Knowledge Discovery Handbook"](http://www.ise.bgu.ac.il/faculty/liorr/hbchap9.pdf) (очень хорошо описано разнообразие методов построения деревьев)
 
+* [Рассказ про классы P и NP](http://cs.stackexchange.com/questions/9556/what-is-the-definition-of-p-np-np-complete-and-np-hard)
+
 ## Полезные ссылки
 
 ### Math
