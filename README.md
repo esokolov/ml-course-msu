@@ -23,9 +23,9 @@
 * [Рассказ про классы P и NP](http://cs.stackexchange.com/questions/9556/what-is-the-definition-of-p-np-np-complete-and-np-hard)
 
 #### Семинар 5: Метрики качества
-* (An introduction to ROC analysis)[https://ccrma.stanford.edu/workshops/mir2009/references/ROCintro.pdf]
+* [An introduction to ROC analysis](https://ccrma.stanford.edu/workshops/mir2009/references/ROCintro.pdf)
 
-* (What does AUC stand for and what is it?)[http://stats.stackexchange.com/questions/132777/what-does-auc-stand-for-and-what-is-it]
+* [What does AUC stand for and what is it?](http://stats.stackexchange.com/questions/132777/what-does-auc-stand-for-and-what-is-it)
 
 ## Полезные ссылки
 
