@@ -5,6 +5,8 @@
 
 [Группа Вконтакте](https://vk.com/cmcml2015)
 
+На семинары можно оставить отзыв: [[анонимно без регистрации и смс](https://docs.google.com/forms/d/1j8zMReMtl-BCeAVISxx_v42_y8GAVeolofFuAHQjHBc/viewform)]
+
 ## Дополнительные материалы
 
 #### Семинар 3: LSH, kNN, векторизация
