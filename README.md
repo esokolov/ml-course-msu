@@ -29,6 +29,9 @@
 
 * [What does AUC stand for and what is it?](http://stats.stackexchange.com/questions/132777/what-does-auc-stand-for-and-what-is-it)
 
+#### Семинар 6: Градиентные методы оптимизации
+* [Matrix Cookbook](http://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
+
 ## Полезные ссылки
 
 ### Math
