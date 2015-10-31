@@ -29,8 +29,16 @@
 
 * [What does AUC stand for and what is it?](http://stats.stackexchange.com/questions/132777/what-does-auc-stand-for-and-what-is-it)
 
-#### Семинар 6: Градиентные методы оптимизации
+#### Семинар 7: Градиентные методы оптимизации
 * [Matrix Cookbook](http://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
+
+#### Семинар 8: Vowpal Wabbit
+
+* [Vowpal Wabbit Tutorial](https://github.com/JohnLangford/vowpal_wabbit/wiki/Tutorial)
+
+* [Vowpal Wabbit tutorial for the Uninitiated](http://zinkov.com/posts/2013-08-13-vowpal-tutorial/)
+
+* [VW on FastML](http://fastml.com/blog/categories/vw/)
 
 ## Полезные ссылки
 
