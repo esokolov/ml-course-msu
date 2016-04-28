@@ -42,6 +42,10 @@
 
 ## Полезные ссылки
 
+### Tech
+
+[Как анализировать данные на AWS](https://github.com/emilkayumov/aws-jupyter)
+
 ### Math
 
 [Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf)
