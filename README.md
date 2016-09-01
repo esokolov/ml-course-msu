@@ -1,6 +1,6 @@
 # Семинары по машинному обучению, ВМК МГУ
 
-![alt text](http://www.machinelearning.ru/wiki/images/2/28/ML_surfaces.png "Машинное обучение" =280x)
+<img src="http://www.machinelearning.ru/wiki/images/2/28/ML_surfaces.png" width="280">
 
 Конспекты, код и прочие материалы к семинарам по машинному обучению, проводимым на ВМК МГУ.
 
