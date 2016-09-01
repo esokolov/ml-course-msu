@@ -1,81 +1,49 @@
 # Семинары по машинному обучению, ВМК МГУ
+
+![alt text](http://www.machinelearning.ru/wiki/images/2/28/ML_surfaces.png "Машинное обучение")
+
 Конспекты, код и прочие материалы к семинарам по машинному обучению, проводимым на ВМК МГУ.
+
+Почта для заданий: ml.cmc.msu@gmail.com
 
 [Страница курса на machinelearning.ru](http://www.machinelearning.ru/wiki/index.php?title=Машинное_обучение_%28семинары%2C_ВМК_МГУ%29)
 
-[Группа Вконтакте](https://vk.com/cmcml2015)
+[Группа Вконтакте](https://vk.com/cmcml2016)
+
+[Оценки за курс](https://)
 
 На семинары можно оставить отзыв: [[анонимно без регистрации и смс](https://docs.google.com/forms/d/1j8zMReMtl-BCeAVISxx_v42_y8GAVeolofFuAHQjHBc/viewform)]
 
-## Дополнительные материалы
+## Правила выставления оценок
 
-#### Семинар 3: LSH, kNN, векторизация
-* Статьи на Хабре про рандомизированные алгоритмы:
-[[Bloom filters](http://habrahabr.ru/post/112069/)]
-[[MinHash](http://habrahabr.ru/post/115147/)]
-[[HyperLogLog](http://habrahabr.ru/post/119852/)]
+**Итоговая контрольная работа:**
 
-* [Лекция по понижению размерности (в том числе learning to hash)](https://github.com/esokolov/ml-course-msu/blob/master/ML15/misc/lsml15_fivt_reduction.pdf)
+1. На последней лекции будет проведена контрольная работа, которая затронет все темы, изученные в течение семестра.
+2. Контрольная оценивается по двухбалльной шкале (зачет/незачет), незачет влечет за собой недопуск к экзамену.
+3. Студент, не получивший допуск, переписывает на экзамене контрольную. В случае успеха он сдает экзамен на первой пересдаче. В случае незачета он снова переписывает контрольную на первой пересдаче, и так далее.
 
-* [How to Vectorize Data Aggregation with pandas and NumPy](http://blog.datascience.com/straightening-loops-how-to-vectorize-data-aggregation-with-pandas-and-numpy/)
+**Семинары:**
 
-#### Семинар 4: Решающие деревья
-* [Глава про решающие деревья из "Data Mining and Knowledge Discovery Handbook"](http://www.ise.bgu.ac.il/faculty/liorr/hbchap9.pdf) (очень хорошо описано разнообразие методов построения деревьев)
+1. На семинарах по каждой пройденной теме будут проводиться проверочные работы. Каждая проверочная оценивается по пятибалльной шкале. В зависимости от оценки за проверочную, студент освобождается от части или от всех задач по этой теме на итоговой контрольной работе.
+2. На семинарах будут выдаваться практические задания, которые будут оцениваться по десятибалльной шкале.
+3. В течение семестра будут проводиться конкурсы по анализу данных. Каждый конкурс оценивается по 15-балльной шкале. За первое, второе и третье место выставляется 15, 13 и 11 баллов соответственно при условии, что студенты выступят с докладом о своем решении (в противном случае они получают 10 баллов). За места с четвертого и по самое последнее, превосходящее бейзлайн, выставляется от 10 до 1 баллов по равномерной сетке. Если все присланные группой решения будут тривиальными, то преподаватель имеет право снизить максимальную оценку до 10 или до 5 баллов.
+4. Оценка за работу в семестре равна сумме оценок за проверочные работы, практические задания и конкурсы.
+5. Если оценка за работу в семестре не меньше 100% от максимальной оценки за проверочные и лабораторные работы, то студент освобождается от написания итоговой контрольной и получает допуск к экзамену автоматом.
+6. Если оценка за работу в семестре не меньше 80% от максимальной оценки за проверочные и лабораторные работы и конкурсы, то студент получает +1 балл на экзамене (при условии получения положительной оценки).
+7. В конце семестра разрешается переписать все проверочные, пропущенные по уважительной причине.
 
-* [Рассказ про классы P и NP](http://cs.stackexchange.com/questions/9556/what-is-the-definition-of-p-np-np-complete-and-np-hard)
+## Занятия
 
-#### Семинар 5: Метрики качества
-* [An introduction to ROC analysis](https://ccrma.stanford.edu/workshops/mir2009/references/ROCintro.pdf)
+| Дата | Номер | Тема | Материалы | ДЗ |
+| :---: | :---: | --- | --- | --- |
+| 2 сентября | Семинар 1 |
+Вводное занятие:
+* Основные термины в машинном обучении
+* Этапы решения задачи анализа данных
+| | |
 
-* [What does AUC stand for and what is it?](http://stats.stackexchange.com/questions/132777/what-does-auc-stand-for-and-what-is-it)
+## Практические задания
 
-#### Семинар 7: Градиентные методы оптимизации
-* [Matrix Cookbook](http://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
-
-#### Семинар 8: Vowpal Wabbit
-
-* [Vowpal Wabbit Tutorial](https://github.com/JohnLangford/vowpal_wabbit/wiki/Tutorial)
-
-* [Vowpal Wabbit tutorial for the Uninitiated](http://zinkov.com/posts/2013-08-13-vowpal-tutorial/)
-
-* [VW on FastML](http://fastml.com/blog/categories/vw/)
-
-## Полезные ссылки
-
-### Tech
-
-[Как анализировать данные на AWS](https://github.com/emilkayumov/aws-jupyter)
-
-### Math
-
-[Linear Algebra Review and Reference](http://cs229.stanford.edu/section/cs229-linalg.pdf)
-
-[Review of Probability Theory](http://cs229.stanford.edu/section/cs229-prob.pdf)
-
-[Convex Optimization Overview](http://cs229.stanford.edu/section/cs229-cvxopt.pdf)
-
-### Python
-
-[Scientific Python Lectures (охватывает numpy, scipy, matplotlib и другие библиотеки)](https://github.com/jrjohansson/scientific-python-lectures)
-
-[A Crash Course in Python for Scientists](http://nbviewer.ipython.org/gist/rpmuller/5920182)
-
-[An example machine learning notebook (знакомство с библиотеками на примере задачи Iris)](http://nbviewer.ipython.org/github/rhiever/Data-Analysis-and-Machine-Learning-Projects/blob/master/example-data-science-notebook/Example%20Machine%20Learning%20Notebook.ipynb)
-
-### NumPy
-
-[100 numpy excercies](http://www.labri.fr/perso/nrougier/teaching/numpy.100/)
-
-### Pandas
-
-[Things in Pandas](http://nbviewer.ipython.org/github/rasbt/python_reference/blob/master/tutorials/things_in_pandas.ipynb)
-
-Pandas Tutorial from SciPy 2015 conference: [[video](https://youtu.be/0CFFTJUZ2dc?list=PLYx7XA2nY5Gcpabmu61kKcToLz0FapmHu)] [[code](https://github.com/jonathanrocher/pandas_tutorial)]
+## Соревнования
 
 
-
-### IPython/Jupyter Notebooks
-
-[Jupyer Notebook User's Guide](http://jupyter.cs.brynmawr.edu/hub/dblank/public/Jupyter%20Notebook%20Users%20Manual.ipynb)
-
-[A gallery of interesting IPython Notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks)
