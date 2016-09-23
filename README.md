@@ -14,6 +14,8 @@
 
 На семинары и работу ассистента можно оставить отзыв: [[анонимно без регистрации и смс](https://docs.google.com/forms/d/1j8zMReMtl-BCeAVISxx_v42_y8GAVeolofFuAHQjHBc/viewform)]
 
+Курс лекций на ФКН ВШЭ: [[wiki](http://wiki.cs.hse.ru/Машинное_обучение_1)] [[материалы](https://github.com/esokolov/ml-course-hse)]
+
 ## Правила выставления оценок
 
 **Итоговая контрольная работа:**
@@ -38,6 +40,7 @@
 | :---: | :---: | --- | --- | --- |
 | 2 сентября | Семинар 1 | Вводное занятие: <ul><li>Основные термины в машинном обучении</li><li>Этапы решения задачи анализа данных</li></ul> | [Конспект](ML16/lecture-notes/Sem01_intro.pdf) | |
 | 16 сентября | Семинар 2 | Метрические методы: <ul><li>Особенности метрических методов: чувствительность к масштабу и шуму, проклятие размерности</li><li>Примеры метрик</li><li>Метрики на категориальных признаках</li><li>Введение в NumPy, SciPy, Pandas, Scikit-Learn</li></ul> | [Конспект](ML16/lecture-notes/Sem02_knn.pdf)<br>[Notebook](ML16/src/Sem02_python_intro.ipynb) | |
+| 23 сентября | Семинар 3 | Метрические методы: <ul><li>Locality-sensitive hashing</li><li>Векторизация операций в NumPy</li><li>Практические особенности kNN и LSH</li></ul> | [Конспект](ML16/lecture-notes/Sem03_knn.pdf)<br>[Notebook](ML16/src/Sem03_numpy_knn.ipynb) | [Домашнее задание](ML16/homeworks/Sem03_knn_hw.pdf) |
 
 ## Практические задания
 
