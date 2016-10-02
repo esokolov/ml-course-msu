@@ -10,7 +10,7 @@
 
 [Канал в telegram для объявлений](https://telegram.me/joinchat/A5rlQD_hqqV2n5AOWEVrVA)
 
-[Оценки за курс](https://)
+[Оценки за курс](https://docs.google.com/spreadsheets/d/1A5BJs_dJcmqY2KVBUCTWlXueTeFWNVT6Tbx5e3dN6_c/edit#gid=2044373835)
 
 На семинары и работу ассистента можно оставить отзыв: [[анонимно без регистрации и смс](https://docs.google.com/forms/d/1j8zMReMtl-BCeAVISxx_v42_y8GAVeolofFuAHQjHBc/viewform)]
 
@@ -41,6 +41,7 @@
 | 2 сентября | Семинар 1 | Вводное занятие: <ul><li>Основные термины в машинном обучении</li><li>Этапы решения задачи анализа данных</li></ul> | [Конспект](ML16/lecture-notes/Sem01_intro.pdf) | |
 | 16 сентября | Семинар 2 | Метрические методы: <ul><li>Особенности метрических методов: чувствительность к масштабу и шуму, проклятие размерности</li><li>Примеры метрик</li><li>Метрики на категориальных признаках</li><li>Введение в NumPy, SciPy, Pandas, Scikit-Learn</li></ul> | [Конспект](ML16/lecture-notes/Sem02_knn.pdf)<br>[Notebook](ML16/src/Sem02_python_intro.ipynb) | |
 | 23 сентября | Семинар 3 | Метрические методы: <ul><li>Locality-sensitive hashing</li><li>Векторизация операций в NumPy</li><li>Практические особенности kNN и LSH</li></ul> | [Конспект](ML16/lecture-notes/Sem03_knn.pdf)<br>[Notebook](ML16/src/Sem03_numpy_knn.ipynb) | [Домашнее задание](ML16/homeworks/Sem03_knn_hw.pdf) |
+| 30 сентября | Семинар 4 | Решающие деревья: <ul><li>Жадное построение решающих деревьев</li><li>Критерии информативности</li><li>Учет пропущенных значений</li><li>Стрижка деревьев</li><li>Работа с категориальными признаками</li></ul> | [Конспект](ML16/lecture-notes/Sem04_trees.pdf)< | [Домашнее задание](ML16/homeworks/Sem04_trees_hw.pdf) |
 
 ## Практические задания
 
