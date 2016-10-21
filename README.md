@@ -44,7 +44,7 @@
 | 30 сентября | Семинар 4 | Решающие деревья: <ul><li>Жадное построение решающих деревьев</li><li>Критерии информативности</li></ul> | [Конспект](ML16/lecture-notes/Sem04_trees.pdf) | [Домашнее задание](ML16/homeworks/Sem04_trees_hw.pdf) |
 | 7 октября | Семинар 5 | Решающие деревья: <ul><li>Стрижка деревьев</li><li>Учет пропущенных значений</li><li>Работа с категориальными признаками</li><li>Случайный лес</li></ul> | [Конспект](ML16/lecture-notes/Sem04_trees.pdf)<br>[Notebook](ML16/src/Sem05_trees.ipynb) | |
 | 14 октября | Семинар 6 | Метрики качества: <ul><li>Доля правильных ответов, точность и полнота</li><li>AUC-ROC</ul> | Теория: [конспект](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/lecture-notes/lecture04-linclass.pdf), раздел 2 <br> <br> Практика: [конспект](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/seminars/sem05-linclass.pdf), задача 1.1 | |
-| 21 октября | Семинар 7 | Метрики качества: <ul><li>AUC-ROC, продолжение</ul> | Теория: [конспект](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/lecture-notes/lecture04-linclass.pdf), раздел 2 <br> <br> Практика: [конспект](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/seminars/sem05-linclass.pdf), задачи 1.2, 1.3, 1.4 | |
+| 21 октября | Семинар 7 | Метрики качества: <ul><li>AUC-ROC, продолжение</ul> | Теория: [конспект](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/lecture-notes/lecture04-linclass.pdf), раздел 2 <br> <br> Практика: [конспект](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/seminars/sem05-linclass.pdf), задачи 1.2, 1.3, 1.4 | [Домашнее задание](ML16/homeworks/Sem07_metrics_hw.pdf) |
 
 ## Практические задания
 
