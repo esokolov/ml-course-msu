@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title> Dota 2: Win Probability Prediction
+        </title>
+
+        <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/reveal.css">
+        <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/css/theme/black.css">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="http://lab.hakim.se/reveal-js/lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'http://lab.hakim.se/reveal-js/css/print/pdf.css' : 'http://lab.hakim.se/reveal-js/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+        <!-- Slides are here -->
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h3> Dota 2: Win Probability Prediction</h3>
+                    <h3> Командный этап</h3>
+                    <h6> Викулин Всеволод </h6>
+                    <h6> Соболева Дарья </h6>
+                    <h6> Иванов Сергей </h6> 
+                    <h6> Захаренко Вадим </h6>
+                    <small>
+                        <p> ВМК МГУ </p>
+                        <p> Кафедра ММП </p>
+                        <p> 2016 </p>
+                    </small>
+                </section>
+
+                <!-- Задача -->
+                <section>
+                    <h2> Задача </h2>
+                    <p>Предсказать вероятность победы команды radiant по информации о первых пяти минутах матча Dota 2.
+                    </p>
+                    <p class="fragment fade-up"> Метрика: log-loss </p>
+                </section>
+
+                <!-- Модели -->
+                <section>
+                        <h5 > Модель Дарьи </h5>
+                        <p class="fragment fade-up"> Работа с базовыми признаками</p>
+                        <p class="fragment fade-up"> Мешок слов из героев</p>
+                        <p class="fragment fade-up"> Кодирование временных признаков о покупках</p>
+                        <p class="fragment fade-up">Дополнительная информация о покупках</p>
+                        <p class="fragment fade-up">Парная синергия, антисинергия игроков</p>
+                        <p class="fragment fade-up">Интерпретируемый скейлинг</p>
+                        <p class="fragment fade-up">Одиночная Logistic Regression с l2-регуляризацией</p>
+                </section>
+                <section>
+                        <h5 > Модель Сергея </h5>
+                        <p class="fragment fade-up">Работа с базовыми признаками</p>
+                        <p class="fragment fade-up"> Мешок слов из героев</p>
+                        <p class="fragment fade-up">Оригинальная синергия и антисинергия</p>
+                        <p class="fragment fade-up">Одиночная Logistic Regression
+                         с l1-регуляризацией</p>
+
+                </section>
+                <section>
+                       <h5 > Финальная модель </h5>
+                       <p>   Одиночная LR</p>
+                       <p> Private LB: 0.58372 </p>
+                       <p> 3 место </p>
+                </section>
+
+                <!--Работа с базовыми признаками-->
+                <section>
+                        <h5 > Работа с базовыми признаками </h5>
+                        <p class="fragment fade-up">
+                           Агрегирование показаталей команд</p>
+                        <p class="fragment fade-up">
+                           $\sum_{i=1}^5 r_i - \sum_{i=1}^5 d_i$ </p>
+                        <p class="fragment fade-up"> $max(r_i) - max(d_i)$ </p>
+                        <p class="fragment fade-up"> $min(r_i) - min(d_i)$ </p>
+                        <p class="fragment fade-up"> $std(r_i) - std(d_i)$ </p>
+
+                        <p class="fragment fade-up">Mean_value и Defeat_value 
+                            по gold, xp, lh </p>
+                        <p class="fragment fade-up"> А также... </p>
+                </section>
+
+                <section>
+                        <h5 > Работа с базовыми признаками </h5>
+                        <p class="fragment fade-up">
+                           Нормированные агрегированные показатали команд</p>
+                        <p class="fragment fade-up">
+                           Пусть R, D   &isin; { &Sigma;, $max$, $min$, $std$} </p>
+                        <p class="fragment fade-up"> 
+                            $$ (R - D) / (sqrt(|R| + |D|))$$
+                        </p>
+                </section>
+
+                <section>                  
+                        <h5>Дополнительная информация о покупках</h5>
+                        <p class="fragment fade-up">Отбрасывание неинформативных</p>
+                        <p class="fragment fade-up">Агрегирование показателей команд</p>
+                        <p class="fragment fade-up">Работа с выбросами</p>
+                        <p class="fragment fade-up">Нормировка, как с базовыми</p>
+               </section>
+
+                <section>                  
+                        <h5>Интерпретируемый скейлинг</h5>
+                        <p class="fragment fade-up">ВАЖНО!</p>
+                        <p class="fragment fade-up">Сохранить смещение в сторону одной из команд</p>
+               </section>
+                <section>                  
+                        <h5>Все, что должно работать - не работало</h5>
+                        <p class="fragment fade-up">
+                        <font color="red">НА ПАБЛИКЕ!!!</font></p>
+                        <p class="fragment fade-up">Кажется, бэггинг тут ни при чем</p>
+                        <p class="fragment fade-up">Попытки обучать на разных подмножествах признаков</p>
+                        <p class="fragment fade-up">Кажется, стекинг тут ни при чем</p>
+                       <p class="fragment fade-up">Весовые схемы не взошли</p>
+               </section>
+
+                <section>                  
+                        <h5>Когда появились результаты</h5>
+                        <p class="fragment fade-up">Стало ясно, что нужно делать...</p>
+               </section>
+
+                <section>                  
+                        <h4>ToDo</h4>
+                        <p class="fragment fade-up">Весовые схемы</p>
+                        <p class="fragment fade-up">Преобразования таргета</p>
+                        <p class="fragment fade-up">Больше голды</p>
+                        <p class="fragment fade-up">Клешни игроков: рак везде рак</p>
+                        <p class="fragment fade-up">Метапризнаки</p>
+                        <p class="fragment fade-up">Синергия и антисинергия n-к игроков</p>
+                        <p class="fragment fade-up">Сломанные башни: out-of-fold признак</p>
+               </section>
+                    
+
+                <section>
+                    <h2> Спасибо за внимание </h2>
+                    <img src=http://www.pixelstalk.net/wp-content/uploads/2016/05/Dota-2-Wallpaper-HD-Pictures-Images-620x349.jpg>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- Imports -->
+        <script src="http://lab.hakim.se/reveal-js/lib/js/head.min.js"></script>
+        <script src="http://lab.hakim.se/reveal-js/js/reveal.js"></script>
+
+        <script>
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                history: true,
+                    math: {
+                        mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+                        config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
+                    },
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    //{ src: 'http://lab.hakim.se/reveal-js/socket.io/socket.io.js', async: true },
+                    { src: 'http://lab.hakim.se/reveal-js/plugin/notes-server/client.js', async: true },
+                    { src: 'http://lab.hakim.se/reveal-js/plugin/math/math.js', async: true },
+                    { src: 'http://lab.hakim.se/reveal-js/plugin/markdown/marked.js' },
+                    { src: 'http://lab.hakim.se/reveal-js/plugin/markdown/markdown.js' },
+                    { src: 'http://lab.hakim.se/reveal-js/plugin/notes/notes.js', async: true },
+                    { src: 'http://lab.hakim.se/reveal-js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ]
+            });
+        </script>
+    </body>
+</html>
