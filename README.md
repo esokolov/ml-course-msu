@@ -49,6 +49,7 @@
 | 11 ноября | Семинар 9 | Линейная классификация: <ul><li>Векторное дифференцирование</li><li>Градиентный спуск и способы оценивания градиента</li><li>Регуляризация и разреженные модели</li></ul> | Теория: [конспект](ML16/lecture-notes/Sem09_linear.pdf) <br> <br> [конспект по разреженным моделям](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/lecture-notes/lecture03-linregr.pdf), раздел 5 | [Домашнее задание](ML16/homeworks/Sem09_linear_hw.pdf) |
 | 18 ноября | Семинар 10 | Условная оптимизация: <ul><li>Лагранжиан</li><li>Двойственные задачи</li><li>Теорема Куна-Таккера</li></ul> | Теория: [конспект](ML16/lecture-notes/Sem10_linear.pdf) | [Домашнее задание](ML16/homeworks/Sem10_linear_hw.pdf) |
 | 25 ноября | Семинар 11 | Отчёты о соревнованиях: <ul><li>[Липкина, Dota](ML16/contests/dota-lipkina.pdf)</li><li>[Януш, Dota](ML16/contests/dota-yanush.pdf)</li><li>[Решающие пни, Dota](ML16/contests/dota-decision-stumps.pdf)</li><li>[Те, кто сверху, Dota](ML16/contests/dota-te-kto-sverkhu.html)</li><li>[Викулин, Sberbank](ML16/contests/sber-vikulin.pdf)</li><li>[Попов, Sberbank](ML16/contests/sber-popov.pdf)</li></ul> | | |
+| 2 декабря | Семинар 12 | Линейные модели: <ul><li>SVM и двойственная задача</li><li>Логистическая регрессия и оценивание вероятностей</li></ul> | Теория: [конспект](ML16/lecture-notes/Sem11_linear.pdf) | [Домашнее задание](ML16/homeworks/Sem11_linear_hw.pdf) |
 
 ## Практические задания
 
