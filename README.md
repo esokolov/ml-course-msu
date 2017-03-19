@@ -53,6 +53,9 @@
 | 9 декабря | Семинар 13 | Линейные модели: <ul><li>Ядра и спрямляющие пространства</li><li>Применение ядер в линейной регрессии</li><li>Метрические операции в спрямляющем пространстве</li><li>Способы построения ядер</li></ul> | Теория: [конспект](ML16/lecture-notes/Sem12_linear.pdf) | [Домашнее задание](ML16/homeworks/Sem12_linear_hw.pdf) |
 | 16 декабря | Семинар 14 | Байесовские методы: <ul><li>Многомерное нормальное распределение, его свойства</li><li>Нормальный дискриминантный анализ</li><li>Вывод оценок максимального правдоподобия для многомерного нормального распределения</li></ul> | Теория: [конспект](ML16/lecture-notes/Sem13_bayes.pdf) | |
 | 16 февраля | Семинар 15 | Разложение ошибки на смещение и разброс | [Конспект](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/seminars/sem08-ensembles.pdf) | [Домашнее задание](ML16-spring/homeworks/Sem01_ensembles_hw.pdf)
+| 2 марта | Семинар 16 | Композиции, случайные леса | [Конспект](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/lecture-notes/lecture08-ensembles.pdf) | 
+| 9 марта | Семинар 17 | Градиентный бустинг | [Теория](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/lecture-notes/lecture09-ensembles.pdf) <br> [Задачи](https://github.com/esokolov/ml-course-hse/blob/master/2016-fall/seminars/sem09-ensembles.pdf) | 
+| 16 марта | Семинар 18 | EM-алгоритм и смеси нормальных распределений | [Конспект](ML16-spring/lecture-notes/Sem04_em.pdf) (1.1-1.4) | [Домашнее задание](ML16-spring/homeworks/Sem04_em_hw.pdf)
 
 ## Практические задания
 
