@@ -25,7 +25,7 @@
 | Дата | Номер | Тема | Материалы | ДЗ |
 | :---: | :---: | --- | --- | --- |
 | 2 сентября | Семинар 1 | Вводное занятие: <ul><li>Основные термины в машинном обучении</li><li>Этапы решения задачи анализа данных</li></ul> | [Конспект](ML16/lecture-notes/Sem01_intro.pdf) | |
-| 16 сентября | Семинар 2 | Линейные методы: <ul><li>Аналитическое решение линейной регрессии</li><li>Векторное дифференцирование</li></ul> | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture02-linregr.pdf)<br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/seminars/sem02-linregr-part1.pdf) | [ДЗ] (ML17-fall/homeworks-theory/homework-theory-1-differentiation.pdf)|
+| 16 сентября | Семинар 2 | Линейные методы: <ul><li>Аналитическое решение линейной регрессии</li><li>Векторное дифференцирование</li></ul> | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture02-linregr.pdf)<br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/seminars/sem02-linregr-part1.pdf) | [ДЗ](ML17-fall/homeworks-theory/homework-theory-1-differentiation.pdf)|
 
 ## Практические задания
 
