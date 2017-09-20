@@ -1,10 +1,11 @@
 import numpy as np
 
+
 def prod_non_zero_diag(x):
     """Compute product of nonzero elements from matrix diagonal.
 
     input:
-    x -- 1-d numpy array
+    x -- 2-d numpy array
     output:
     product -- integer number
 
@@ -43,19 +44,6 @@ def max_after_zero(x):
     pass
 
 
-def run_length_encoding(x):
-    """Make run-length encoding.
-
-    input:
-    x -- 1-d numpy array
-    output:
-    elements, counters -- integer iterables
-
-    Vectorized implementation.
-    """
-
-    pass
-
 def convert_image(img, coefs):
     """Sum up image channels with weights from coefs array
 
@@ -64,6 +52,20 @@ def convert_image(img, coefs):
     coefs -- 1-d numpy array (length 3)
     output:
     img -- 2-d numpy array
+
+    Vectorized implementation.
+    """
+
+    pass
+
+
+def run_length_encoding(x):
+    """Make run-length encoding.
+
+    input:
+    x -- 1-d numpy array
+    output:
+    elements, counters -- integer iterables
 
     Vectorized implementation.
     """
