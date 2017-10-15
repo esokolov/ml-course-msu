@@ -4,6 +4,8 @@
 
 Конспекты, код и прочие материалы к семинарам по машинному обучению, проводимым на ВМК МГУ.
 
+[[Таблица с результатами](https://docs.google.com/spreadsheets/d/1T0Agj2eIwIcK0N9DYk3C-fMUvshZxXPNG7zvI28oqx8/edit#gid=2044373835)]
+
 Почта для заданий: ml.cmc.msu@gmail.com
 
 На семинары и работу ассистентов можно оставить отзыв: [[анонимно без регистрации и смс](https://docs.google.com/forms/d/1j8zMReMtl-BCeAVISxx_v42_y8GAVeolofFuAHQjHBc/viewform)]
