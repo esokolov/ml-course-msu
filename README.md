@@ -14,6 +14,12 @@
 
 ## Правила выставления оценок
 
+1. В ходе семестра будет несколько теоретических проверочных работ, практических заданий и контестов.
+2. Для получения зачета нужно «закрыть» каждую теоретическую тему и решить каждое практическое задание хотя бы на 80%.
+3. За каждую активность ставятся баллы, топ рейтинга получает +1 балл на экзамене (в случае получения оценки >= 3).
+4. Присуждение +балла является безапеляционным.
+
+
 **Итоговая контрольная работа:**
 
 1. На последней лекции будет проведена контрольная работа, которая затронет все темы, изученные в течение семестра.
@@ -38,8 +44,15 @@
 | 16 ноября   | Семинар 11 | Решающие деревья | [Конспект](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture07-trees.pdf ) | [ДЗ](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/homeworks-theory/homework-theory-05-knn-trees.pdf) (без KNN)|
 | 30 ноября   | Семинар 12 | Bias-variance decomposition | [Конспект](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/seminars/sem08_bvd.pdf) | [ДЗ](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/homeworks-theory/homework-theory-06-bvd.pdf)|
 | 14 декабря  | Семинар 13 | <ul><li>Бэггинг</li><li>Градиентный бустинг</li><ul> | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture08-ensembles.pdf) <br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/seminars/sem09-gbm-part1.pdf) | |
+| 8 февраля   | Семинар 14 | Нейронные сети | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture11-dl.pdf) <br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/seminars/sem10-nn-part1.pdf) | |
+| 15 февраля  | Семинар 15 | Ядра | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/lecture-notes/lecture14-kernels.pdf) <br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/lecture-notes/lecture16-kernels.pdf ) <br> [Задачи](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem12-kernels.pdf) | |
+| 22 февраля  | Семинар 16 | Ядпа | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem15-flda.pdf) <br> [Задачи](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem14-kernels.pdf) | |
 
+## Контесты
 
+### Контест 1:
+
+[Ссылка](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge)
 
 ## Практические задания
 
