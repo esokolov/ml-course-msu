@@ -25,7 +25,7 @@
 | Дата | Номер | Тема | Материалы | ДЗ |
 | :---: | :---: | --- | --- | --- |
 | 7 сентября  | Семинар 1  | Вводное занятие: <ul><li>Основные термины в машинном обучении</li><li>Этапы решения задачи анализа данных</li></ul> | [Конспект](ML16/lecture-notes/Sem01_intro.pdf) | |
-| 14 сентября | Семинар 2  | Линейные методы: <ul><li>Аналитическое решение линейной регрессии</li><li>Векторное дифференцирование</li></ul> | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture02-linregr.pdf)<br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/seminars/sem02-linregr-part1.pdf) | [ДЗ](ML17-fall/homeworks-theory/homework-theory-1-differentiation.pdf)|
+| 14 сентября | Семинар 2  | Линейные методы: <ul><li>Аналитическое решение линейной регрессии</li><li>Векторное дифференцирование</li></ul> | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture02-linregr.pdf)<br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/seminars/sem02-linregr-part1.pdf) | [ДЗ](ML17/homeworks-theory/homework-theory-1-differentiation.pdf)|
 | 28 сентября | Семинар 3  | Метрические методы: <ul><li>Особенности метрических методов: чувствительность к масштабу и шуму, проклятие размерности</li><li>Примеры метрик</li><li>Метрики на категориальных признаках</li> | [Конспект](ML16/lecture-notes/Sem02_knn.pdf) | |
 | 5 октября   | Семинар 4  | Метрические методы: <ul><li>Locality-sensitive hashing</li> | [Конспект](ML16/lecture-notes/Sem03_knn.pdf) | [ДЗ](ML16/homeworks/Sem03_knn_hw.pdf)|
 | 12 октября  | Семинар 5  | <ul><li>Градиентный спуск</li><li>Регуляризация</li><ul> | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture02-linregr.pdf) (4-я глава)<br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture03-linregr.pdf) (5-я глава) | [ДЗ](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/homeworks-theory/homework-theory-01-linregr.pdf) (5-я задача)|
@@ -54,7 +54,7 @@
 
 ### Задание 1:
 
-[Условие](ML17-fall/homeworks-practice/homework-practice-01/homework-practice-01.ipynb)
+[Условие](ML17/homeworks-practice/homework-practice-01/homework-practice-01.ipynb)
 
 Дата выдачи: 18.09.2017
 
@@ -64,7 +64,7 @@
 
 ### Задание 2:
 
-[Условие](ML17-fall/homeworks-practice/homework-practice-02.ipynb)
+[Условие](ML17/homeworks-practice/homework-practice-02.ipynb)
 
 Дата выдачи: 04.11.2017
 
@@ -75,7 +75,7 @@
 
 ### Задание 3:
 
-[Условие](ML17-fall/homeworks-practice/homework-practice-03/homework-practice-03.ipynb)
+[Условие](ML17/homeworks-practice/homework-practice-03/homework-practice-03.ipynb)
 
 Дата выдачи: 07.12.2017
 
@@ -83,4 +83,14 @@
 
 Жёсткий дедлайн: 31.12.2017 23:59 MSK
 
+
+### Задание 4:
+
+[Условие](ML17/homeworks-practice/homework-practice-04/homework-practice-04.ipynb)
+
+Дата выдачи: 10.03.2018
+
+Мягкий дедлайн: 25.03.2017
+
+Жёсткий дедлайн: 01.04.2018
 
