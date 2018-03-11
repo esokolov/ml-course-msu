@@ -37,8 +37,10 @@
 | 30 ноября   | Семинар 12 | Bias-variance decomposition | [Конспект](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/seminars/sem08_bvd.pdf) | [ДЗ](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/homeworks-theory/homework-theory-06-bvd.pdf)|
 | 14 декабря  | Семинар 13 | <ul><li>Бэггинг</li><li>Градиентный бустинг</li><ul> | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture08-ensembles.pdf) <br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/seminars/sem09-gbm-part1.pdf) | |
 | 8 февраля   | Семинар 14 | Нейронные сети | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/lecture-notes/lecture11-dl.pdf) <br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-fall/seminars/sem10-nn-part1.pdf) | |
-| 15 февраля  | Семинар 15 | Ядра | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/lecture-notes/lecture14-kernels.pdf) <br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/lecture-notes/lecture16-kernels.pdf ) <br> [Задачи](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem12-kernels.pdf) | |
-| 22 февраля  | Семинар 16 | Ядпа | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem15-flda.pdf) <br> [Задачи](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem14-kernels.pdf) | |
+| 15 февраля  | Семинар 15 | Ядра | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/lecture-notes/lecture14-kernels.pdf) <br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/lecture-notes/lecture16-kernels.pdf ) <br> [Задачи](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem12-kernels.pdf) | [ДЗ](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/homeworks-theory/homework-theory-09-kernels.pdf) (Задачи 1-5)|
+| 22 февраля  | Семинар 16 | Ядра | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem15-flda.pdf) <br> [Задачи](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem14-kernels.pdf) | |
+| 1 марта     | Семинар 17 | Байесовские методы | [Конспект](https://github.com/esokolov/ml-course-msu/blob/master/ML15/lecture-notes/Sem13_bayes.pdf) | |
+
 
 ## Контесты
 
