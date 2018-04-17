@@ -40,6 +40,11 @@
 | 15 февраля  | Семинар 15 | Ядра | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/lecture-notes/lecture14-kernels.pdf) <br> [Конспект 2](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/lecture-notes/lecture16-kernels.pdf ) <br> [Задачи](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem12-kernels.pdf) | [ДЗ](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/homeworks-theory/homework-theory-09-kernels.pdf) (Задачи 1-5)|
 | 22 февраля  | Семинар 16 | Ядра | [Конспект 1](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem15-flda.pdf) <br> [Задачи](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem14-kernels.pdf) | |
 | 1 марта     | Семинар 17 | Байесовские методы | [Конспект](https://github.com/esokolov/ml-course-msu/blob/master/ML15/lecture-notes/Sem13_bayes.pdf) | |
+| 15 марта     | Семинар 18 | EM-алгоритм | [Конспект](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/lecture-notes/lecture17-em.pdf) [Задачи](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/seminars/sem16-em.pdf)| [ДЗ (Задачи 1–4)](https://github.com/esokolov/ml-course-hse/blob/master/2017-spring/homeworks-theory/homework-theory-10-unsupervised.pdf)|
+| 22 марта     | Семинар 19 | Гауссовские процессы | [Конспект](https://github.com/esokolov/ml-course-hse/blob/master/2016-spring/seminars/sem21-gp.pdf) | |
+| 29 марта     | Семинар 20 | <ul><li>Рассказ о решении контеста</li><li>Обобщенные линейные модели</li><ul>|  | |
+| 5 апреля     | Семинар 21 | Обобщенные линейные модели | [Конспект](https://github.com/esokolov/ml-course-msu/blob/master/ML17/lecture-notes/Sem20-glm.pdf) | [ДЗ](https://github.com/esokolov/ml-course-msu/blob/master/ML17/homeworks-theory/homework-theory-20-glm.pdf)|
+| 12 апреля     | Семинар 22 |  |  | |
 
 
 ## Контесты
